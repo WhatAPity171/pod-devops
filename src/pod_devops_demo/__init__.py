@@ -5,4 +5,4 @@ __version__ = "0.1.0"
 
 def greet(name: str) -> str:
     cleaned = name.strip() or "world"
-    return f"Hello, {cleaned}!"
+    return f"Hello there, {cleaned}!"
